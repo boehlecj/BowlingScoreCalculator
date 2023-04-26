@@ -28,8 +28,6 @@ public class BowlingScoreCalculator {
     private List<Object> score = new ArrayList<>();
     private Map<Integer, Frame> frames = new HashMap();
 
-
-
     public Object[] calculateBowlingFrameScores(Object[] rolls) throws InvalidBowlingScoreException {
         //There are only 10 frames in bowling. 9 frames with a maximum of 2 rolls each and a tenth frame with a maximum of 3 rolls
         if (rolls.length > 21) {
